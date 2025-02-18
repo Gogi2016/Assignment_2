@@ -23,9 +23,9 @@ To run this project, ensure that you have the following installed:
 1. **Clone the repository**:
    
     git clone https://github.com/Gogi2016/Assignment_2.git
-    cd <repository_directory>
+   cd <repository_directory>
 
-2. **Install dependencies**:
+3. **Install dependencies**:
     The project relies on the `rand` crate for generating random numbers. Ensure you have the necessary dependencies by adding the following to the `Cargo.toml` file:
     [dependencies]
 burn = { version = "0.16.0", features = ["wgpu", "train"] }
